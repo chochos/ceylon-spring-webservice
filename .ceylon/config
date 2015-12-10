@@ -1,0 +1,8 @@
+
+[defaults]
+encoding=UTF-8
+autoexportmavendependencies=true
+flatclasspath=true
+
+[repositories]
+remote=aether
