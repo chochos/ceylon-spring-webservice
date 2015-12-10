@@ -13,6 +13,8 @@ shared soapBinding webService {
     name = "hello"; serviceName = "hello";
 } class ServiceImpl()
         satisfies ServiceInterface {
-    shared actual String hello(String person)
-            => "Hello, ``person``!";
+    shared actual String hello(String person) {
+        print("Saying hi to ``person``");
+        return "Hello, ``person``!";
+    }
 }
