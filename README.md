@@ -5,4 +5,4 @@ You can open the project in the Ceylon IDE, or compile and run it from the comma
 
 `ceylon compile source/example/ws/* resource/example/ws/ws.xml`
 
-`ceylon run --flat-classpath example.ws/1.0`
+`ceylon run example.ws/1.0`
